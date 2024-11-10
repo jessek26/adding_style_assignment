@@ -1,0 +1,62 @@
+.navbar {
+        height: 10px;
+        margin-top: 5px;
+        padding: 20px;
+        background-size: cover; 
+        font-family: sans-serif;
+    }
+    header {
+        background-color: rgb(85, 89, 110);
+        position: fixed;
+        left:0;
+        right: 0;
+        top: 5px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 0 25px 0 black;
+    }
+    header *{
+        display: inline
+    }
+    header li a {
+        color: white;
+        text-decoration: none;
+    }
+
+.background{
+        background-color: rgb(25, 25, 25);
+    }
+
+.subtitle{
+    color:rgb(205, 92, 92)
+}
+
+.title{
+    color: rgba(255, 204, 0, 0.872)
+}
+
+.navbar_text{
+    color:rgb(255, 204, 0)
+}
+
+.text{
+    color: rgba(255, 255, 255, 0.938);
+}
+
+.text1{
+    color: rgb(25, 25, 25);
+}
+/*colors for the input boxes*/
+.name_color{
+    background-color: rgb(118, 255, 196);
+}
+.email_color{
+    background-color: rgb(189, 118, 255);
+}
+.subject_color{
+    background-color: rgb(155, 255, 118);
+}
+.message_color{
+    background-color: rgb(118, 191, 255);
+}
