@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="pers_page_css.css">
+  <head>
+    <title>Navigation Bar</title>
+    <style type=text/css>
+    body
+        {
+            height: 125vh;
+            margin-top: 80px;
+            padding: 30px;
+            background-size: cover; 
+            font-family: sans-serif;
+        }
+
+    </style>
+  </head>
+  <body class="background">
+    <header class="navbar">
+    <nav>
+      <ul>
+        <li><a href="home.html" class= "navbar_text" >Home</a></li>
+        <li><a href="aboutme1.html" class= "navbar_text" >About Me</a></li>
+        <li><a href="resume.html" class= "navbar_text" >Resume</a> </li>
+        <li><a href="contact.html" class= "navbar_text" >Contact Me</a></li>
+      </ul>
+    </nav>
+    </header>
+    <h2 class="title">Contact Me</h2>
+    <form action="#" method="post">
+      <label for="name" class="subtitle">Name:</label><br>
+      <input type="text" id="name" name="name" value="" class="name_color"><br><br>
+
+      <label for="email" class="subtitle">Email:</label><br>
+      <input type="email" id="email" name="email" value=""class="email_color"><br><br>
+
+      <label for="subject" class= "subtitle">Subject:</label><br>
+      <input type="text" id="subject" name="subject" class= "subject_color"><br><br>
+
+      <label for="message" class= "subtitle">Message:</label><br>
+      <textarea id="message" name="message" class= "message_color"></textarea><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
